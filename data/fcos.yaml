@@ -1,0 +1,5 @@
+train: train.txt
+val: val.txt
+
+nc: 11
+names: [ '__background__', '飞机', '轮船', '储罐', '棒球场', '网球场', '篮球场', '田径场', '港口', '桥梁', '车辆' ]

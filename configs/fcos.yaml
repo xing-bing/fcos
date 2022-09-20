@@ -1,0 +1,19 @@
+backbone:
+  backbone_name: resnet
+  backbone_dict:
+    pretrained: False
+    level: 50
+    layers: [ 3, 4, 6, 3 ]
+neck:
+  neck_name: FPN
+  neck_dict:
+    features: 256
+head:
+  head_name: Fcos_Head
+  head_dict:
+    in_channel: 256
+    num_classes: 2
+
+strides: [ 8, 16, 32, 64, 128 ]
+limit_range: [ [ -1, 64 ], [ 64, 128 ],[ 128, 256 ],[ 256,  512 ], [ 512, 999999 ] ]
+sample_radiu_ratio: 1.5

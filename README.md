@@ -6,6 +6,7 @@
 
 
 
+![result](https://user-images.githubusercontent.com/47670651/191399142-488c2119-8698-490e-986c-bfc48c919940.jpg)
 
 
 
@@ -17,26 +18,26 @@
 ### 训练损失
 
 
+![image](https://user-images.githubusercontent.com/47670651/191399360-7a828598-60f3-41be-b32f-e325ac06ccd0.png)
 
 
 
 
+## 数据集准备
 
-### 数据集准备
+							datasets
 
-​				datasets
+									-- train
 
-​							-- train
+												-- 1.jpg
 
-​									-- 1.jpg
+												-- 1.txt
 
-​									-- 1.txt
+									-- val
 
-​							-- val
+												-- 2.jpg
 
-​									-- 2.jpg
-
-​									-- 2.txt
+												-- 2.txt
 
 
 
